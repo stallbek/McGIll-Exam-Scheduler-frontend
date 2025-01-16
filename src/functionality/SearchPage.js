@@ -26,7 +26,7 @@ const SearchPage = () => {
             return;
         }
 
-        axios.get(`http://localhost:8080/api/courses/name/${searchQuery}`)
+        axios.get(`${myAPI}/api/courses/name/${searchQuery}`)
             .then(res => {
                 setInfo(res.data);
                 setHasError(false);
