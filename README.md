@@ -2,4 +2,4 @@ In this project, I demonstrated skills in building a full-stack web application 
 
 The backend was built with Spring Boot, where I created RESTful endpoints to handle data requests and configured CORS settings to enable secure interactions between the client and server. The MongoDB Atlas database was used for data storage, enabling efficient CRUD operations and dynamic rendering of content on the frontend. This project highlights my ability to integrate multiple technologies into a cohesive and scalable application.
 
-The frontend was developed using JavaScript, React, JSX, and CSS, combining these technologies to create a functional and visually appealing user experience.
+The frontend was developed using JavaScript, React, JSX, and CSS, combining these technologies to create a functional and visually appealing user experience
