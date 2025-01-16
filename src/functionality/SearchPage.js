@@ -26,6 +26,8 @@ const SearchPage = () => {
             return;
         }
 
+        let myAPI;
+
         axios.get(`${myAPI}/api/courses/name/${searchQuery}`)
             .then(res => {
                 setInfo(res.data);
