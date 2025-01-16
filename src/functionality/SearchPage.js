@@ -26,9 +26,9 @@ const SearchPage = () => {
             return;
         }
 
-        let myAPI;
+        
 
-        axios.get(`${myAPI}/api/courses/name/${searchQuery}`)
+        axios.get(`https://backend-scheduler-4a66b7f12154.herokuapp.com/api/courses/name/${searchQuery}`)
             .then(res => {
                 setInfo(res.data);
                 setHasError(false);
